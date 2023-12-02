@@ -58,10 +58,10 @@ In the last module, we constructed wired up two new applications and added the n
 Nice and simple... We want a contact us endpoint so a user can send their name, email and message to our backend.
 
 We need:
-a) a model to capture store the incoming data
-b) a router/url called '/contact/'
-c) a serializer to process the data coming from the user and send a response back again.
-d) a view to encapsulates the common REST HTTP method calls
+* a) a model to capture store the incoming data
+* b) a router/url called '/contact/'
+* c) a serializer to process the data coming from the user and send a response back again.
+* d) a view to encapsulates the common REST HTTP method calls
 
 easy, right?
 
